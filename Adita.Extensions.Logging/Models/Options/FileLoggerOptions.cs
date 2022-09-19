@@ -20,10 +20,12 @@
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //SOFTWARE.
 
+using Adita.Extensions.Logging.Services.Loggers;
+
 namespace Adita.Extensions.Logging.Models.Options
 {
     /// <summary>
-    /// Represents an option for <see cref="FileLogger{TCategoryName}"/>.
+    /// Represents an option for <see cref="FileLogger"/>.
     /// </summary>
     public class FileLoggerOptions
     {
