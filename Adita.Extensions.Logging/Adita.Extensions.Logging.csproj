@@ -5,12 +5,35 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <Title>Logging extensions that targetting .NET 6</Title>
+    <Title>Logging extensions that targeting .NET 6</Title>
     <Version>1.0.0.0</Version>
     <Authors>Setya Adi Kurnia</Authors>
     <Company>Adita</Company>
-    <Copyright>©2022, Adita</Copyright>
+    <Copyright>©2022 Adita</Copyright>
+    <Description>A logging extensions that targeting .NET 6</Description>
+    <RepositoryUrl>https://github.com/sans-eng/Adita.Extensions.Logging</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>NET6; Logging; Extensions;</PackageTags>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <PackageIcon>favicon.png</PackageIcon>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Designs\favicon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
